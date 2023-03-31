@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Login and Register page </title>
+      <link rel="stylesheet" href="RegisterPage.css" >
+    </head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+               <img src="facebook.png" >
+               <img src="google.png" >
+               <img src="linkedin.jpg" >
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box" ><span>Remember me</span>
+                <button type="button" class="submit-btn" onclick="go()">Log In</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box" ><span>I agree to this terms & conditions</span>
+                <button type="button" class="submit-btn" onclick="go()">Register</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x =document.getElementById("login")
+        var y =document.getElementById("register")
+        var z =document.getElementById("btn")
+
+        function register(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+			
+        }
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";			
+		}
+		function go(){
+		window.location.assign('aseer.html');
+        }
+		
+		
+    </script>
+</body>
+</html>

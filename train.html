@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+		body
+		{
+		margin-left:0;
+		margin-right:0;
+		background-image:url('trace.jpeg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		}
+		div
+		{
+		width:100%;
+		height:80px;
+		background:#0e1632c4
+		
+		}
+	    button
+		{
+		background:#2196f3;
+		margin:20px 10px;
+		padding:10px;
+	    
+		}
+		div:hover button
+		{
+		opacity:0;
+		}
+		div button:hover
+		{
+		transform:scale(1.3);
+		background:#ff3f81;
+		opacity:1;
+		}
+		
+		</style>
+		<script>
+			function team()
+			{
+				window.location.assign('information team.html');
+			}
+			function register()
+			{
+				window.location.assign('RegisterPage.html');
+			}
+			function home()
+			{
+				window.location.assign('aseer.html');
+			}
+		</script>
+	
+		 
+	</head>
+		<body>
+		<div>
+			<button onclick="home()">Home</button>
+			<button onclick="register()">Regester / Log in</button>
+			<button onclick="team()">Information team</button>
+			<button onclick="register()">Log out</button>
+	    </div>
+		</body>
+
+</html>

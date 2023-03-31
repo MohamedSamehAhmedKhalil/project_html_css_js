@@ -1,0 +1,91 @@
+body{
+    width: 99%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(book.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.first{
+    margin-top: 50px;
+    margin-left: 500px ;
+    font-family: sans-serif;
+    font-size: 40px;
+    font: lighter;
+    color: #ffba75;
+}
+.second{
+    color: #fbc997;
+    font-size: 30px;
+    font:bold;
+    margin-left:0.5cm;
+    margin-top: 50px;
+    font:bold;
+    font-family: sans-serif;
+}
+.three{
+    color: #fbc997;
+    font-size: 25px;
+    font:bold;
+    margin-left: 2cm;
+    margin-top: 20px;
+    font:bold;
+    font-family: sans-serif;
+}
+.four{
+    margin-bottom: 50px;
+    margin-left: 700px ;
+    font-family: sans-serif;
+    font-size: 40px;
+    font: lighter;
+    color: #ffba75;
+}
+.five{
+    color: #fbc997;
+    font-size: 30px;
+    font:bold;
+    margin-left:0.5cm;
+    margin-top: 50px;
+    font:bold;
+    font-family: sans-serif;
+}
+.six{
+    color: #fbc997;
+    font-size: 25px;
+    font:bold;
+    margin-left: 2cm;
+    margin-top: 20px;
+    font:bold;
+    font-family: sans-serif;
+}
+.seven{
+    margin-bottom: 50px;
+    margin-left: 700px ;
+    font-family: sans-serif;
+    font-size: 40px;
+    font: lighter;
+    color: #ffba75;
+}
+.eight{
+    top:100;
+    left:800px;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    border-radius: 30px;
+    font-family: serif;
+}
+
+.me
+		{
+		background:#0000006b;
+		margin:20px 30px;
+		padding:10px;
+	    border:none;
+		float:right;
+		color:#fff;
+		}
+		.me:hover
+        {
+		transform:scale(1.4);
+		background:#1036f08c;
+		}		

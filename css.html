@@ -1,0 +1,328 @@
+<!DOCTYPE html >
+<html lang ="en" > 
+<head> 
+	<title> My first html page </title> 
+	<mate cherset="utf-8">
+         <link rel="stylesheet" href="style .css"/>
+<style>
+body{
+    background-color:snow;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.text1
+{
+  position: absolute;
+  top:50%;
+  left: 32%;
+  color: rgba(240, 248, 255, 0.603);
+  text-align: center;
+  font-size: 80px;
+  overflow: hidden;
+  border-style :solid ;
+  border-bottom:#0f0 ;
+  font-family: broadway ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 1, 0.2), 0 6px 20px 0 rgba(0, 0, 1, 0.19)
+}
+
+img {
+ 
+  min-width: 100%;
+  height: 1000px;
+}
+	
+h1
+{
+    
+  font-size: 50px;
+  box-sizing: border-box;
+  background-color: rgba(169, 169, 169, 0.466);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 1, 0.2), 0 6px 20px 0 rgba(0, 0, 1, 0.19);
+  border-bottom:#000 ;
+  text-align: center;
+  margin: 6px 0px 0px -10px;
+  width: 500px;
+  position: relative;
+  left: 33%;
+
+}
+    span
+    {
+        font-family: bahnschrift;
+    width: 1000px;
+    display: block;
+    font-size: 20px;
+    background-color: rgba(169, 169, 169, 0.466);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 1, 0.2), 0 6px 20px 0 rgba(0, 0, 1, 0.19);
+    border-bottom:#000 ;
+    position: relative;
+      left: 16%;
+    }
+    div.body
+  {
+    margin: -10px;
+    width: 1920 px;
+    height: 1200px;
+   background-image:url(51.jpg) ;
+   background-repeat:no-repeat ;
+  }
+div.gallery {
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0px 10px ;
+  border: 1px solid #ccc;
+  position: relative;
+  float: left;
+  display: block;
+  top: 25%;
+  left: 25%;
+  width: 180px;
+
+}
+
+
+
+ 
+
+div.gallery:hover {
+  width: 250px;
+  color: #777;
+  background-color: #111;
+    
+    animation-name: example;
+    animation-duration: 3s;
+  transition: 1s;
+    border: 1px solid #777;
+}
+@keyframes example {
+  
+    from {background-color:#111;}
+    to {background-color: rgba(248, 248, 244, 0);}
+  }
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+    b
+    {
+      font-size: 30px;
+      background-color: rgba(169, 169, 169, 0.466);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 1, 0.2), 0 6px 20px 0 rgba(0, 0, 1, 0.19);
+        border-bottom:#000 ;
+        position: relative;
+          left: 16%;
+    }
+    .menu
+    {
+      width:100%;
+      height:80px;
+      background:#dee1da;
+      
+    }
+	    .me
+		{
+      background:#111111c7;
+      margin:20px 10px;
+      padding:10px;
+      color:#fff;
+      border:none;
+      border-radius: 30px;
+    }
+		
+		.menu .me:hover
+		{
+		transform:scale(1.3);
+		background:#777;
+		opacity:1;
+		}
+	    .site
+		{
+		background:#a9a9a977;
+		margin:20px 10px;
+		padding:10px;
+	    border:none;
+      border-radius: 30px;
+		
+		}
+		.site:hover
+        {
+		transform:scale(1.3);
+		}		
+   
+</style>
+<script>
+            function team()
+			{
+				window.location.assign('information team.html');
+			}
+			function register()
+			{
+				window.location.assign('RegisterPage.html');
+			}
+			function home()
+			{
+				window.location.assign('aseer.html');
+			}
+			function adminpage()
+			{
+				window.location.assign('index.html');
+			}
+			function portfolio()
+			{
+				window.location.assign('portfolio.html');
+			}
+           function web(){
+            window.location.assign('https://www.freelancer.com/');
+            }
+
+</script>
+</head> 
+<body>
+  <div class="menu">
+			<button class="me" onclick="home()">Home</button>
+			<button class="me" onclick="adminpage()">Admin Page</button>
+			<button class="me" onclick="portfolio()">Portfolio</button>
+			<button class="me" onclick="register()">Regester / Log in</button>
+			<button class="me" onclick="team()">Information team</button>
+			<button class="me" onclick="register()">Log out</button>
+	    </div>
+<div class="photo">
+    <img src="100.jpg">
+    <div class="text1">
+           <p>
+            make money
+            <br>
+            make money 
+           </p>
+        </div>
+<button class="site" onclick="web()">Freelancer Website</button>
+</body>
+<div class="freelancer">
+   
+
+    <h1>
+        what is freelancer
+        </h1>
+        <p>
+            <span>
+            Freelancer.com is a marketplace of ideas, skills, and talents where anyone can work on what they love.
+            The website has been up and running for about six years now 
+            and it has since launched many products and features to help both employers and freelancers get work done.
+            Because of the platform's vastness, 
+            it may seem too daunting for a newbie. In this short guide, 
+            we'll discuss the processes involved in working and earning at Freelancer.
+        </span>
+        </p>
+      <h1>
+       <p> How to Earn Money at Freelancer</p>
+        <h1>
+            step one 
+          
+        </h1>
+        <p>
+            <span>
+            Determine what you are good at,
+             commit to a life of freelancing, and sign up for a  Freelancer.com account. 
+            Signing up and working at Freelancer.com is absolutely free, but we also have membership upgrades that will greatly help you to earn more,
+             such as getting more bids per month, and a list of skills. Certain projects require your profile to reflect certain skills,
+             so the more you have listed, the more opportunities you get.
+            </span>
+        </p>
+      </h1> 
+    
+        <h1>
+            step two 
+          
+        </h1>
+        <p>
+            <span>
+                 Set up your profile. We can't stress the need for a complete and presentable profile enough.
+                 It showcases your personality, resume, portfolio, and skills all rolled into one. It's also an important tool for persuasion:
+                 an employer may completely base his judgment on whether to hire you or not by how well you present yourself. Get tips here
+            </span>
+        </p>
+      </h1> 
+      <h1>
+        step there
+      
+    </h1>
+    <p>
+        <span> 
+            Find projects and start bidding. Earning money at Freelancer.com actually begins here. 
+            Hundreds of projects and contests in different categories are posted each day. Find the ones you want to work on by regularly checking the Jobs or Contests page. In the jobs page, you'll see suitable projects open for bidding. For contests, you simply submit an entry.
+
+            There are over 750 work categories in the Jobs page, 
+            from Web development and writing, to marketing and accounting.
+             Certainly, a job that matches your skills is listed here. 
+             Before placing your bid, make sure to write a compelling reason why the employer should pick you over everyone else. 
+             Not sure how the bidding process works? No problem,
+             we have a step-by-step bidding guide here
+        </span>
+    </p>
+  </h1> 
+  <h1>
+    step four 
+  
+</h1>
+<p>
+    <span> Work. This might be the hardest but most rewarding step. 
+        Before starting work, make sure that both you and the employer are aligned in terms of project scope, 
+        deadlines, and Milestone Payments so there will be no issues along the way. 
+        You may want to have a signed agreement in place to seal the deal. 
+        All must be clear between you and the employer before you jump the gun – you may be too excited to start working, but keep calm and focus.
+</span>
+</p>
+</h1> 
+<h1>
+    finally
+  
+</h1>
+<p>
+    <span> Get paid and earn five-star feedback.
+         Once you get paid, you can withdraw your money via PayPal Wire Transfer, Moneybookers,
+          or your nominated local bank account (works through our Express Withdrawal System). 
+        Also, always aim for five-star feedback – the accumulation of great, quality feedback is a great addition to your portfolio
+</span>
+</p>
+</h1>
+<b>
+  but you need learn one of this traks at last 
+</b>
+<br><br>
+<div class="gallery">
+  
+    <img src="2(1).png" alt="Cinque Terre" width="600" height="400">
+  <div class="desc">graphic<br>designer</div>
+</div>
+
+<div class="gallery">
+  
+    <img src="3 (1).jpg" alt="up work" width="600" height="400">
+  
+  <div class="desc">web <br>designer</div>
+</div>
+<div class="gallery">
+  
+    <img src="777.png" alt="Mountains" width="600" height="400">
+  
+  <div class="desc"> web<br>develober</div>
+</div>
+<div class="gallery">
+  
+    <img src="4 (1).jpg" alt="خمسات" width="700" height="500">
+  
+  <div class="desc">app develober</div>
+</div>
+
+
+
+</div>
+</html>
